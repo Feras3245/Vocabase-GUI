@@ -83,9 +83,9 @@ Features include:
     <img src="https://github.com/Feras3245/Vocabase-GUI/blob/main/screentshot-1.png?raw=true" width="680">
     - Make sure a Collection and Group are selected
 - Search for any German term you would like to scrape, edit the returned results as you like and then click `Send To Notion` when you are ready:
-    <img src="https://github.com/Feras3245/Vocabase-GUI/blob/main/screentshot-2.png?raw=true" width="680">
+    <img src="https://github.com/Feras3245/Vocabase-GUI/blob/main/screenshot-2.png?raw=true" width="680">
 - If you did everything correctly you will see the term is successfully stored in your Notion database:
-    <img src="https://github.com/Feras3245/Vocabase-GUI/blob/main/screentshot-3.png?raw=true" width="680">
+    <img src="https://github.com/Feras3245/Vocabase-GUI/blob/main/screenshot-3.png?raw=true" width="680">
 - You can create other collections and groups as you like (e.g. `Collection 2`, `Collection 3`, `Group 1`, `Group 2`, etc.) and switch between them as you please from the Settings menu.
 - **Note:** currently there is no automated way to create groups and collections, for the forceable future you will have to do so manually.
 
