@@ -1,0 +1,80 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+
+:root {
+  --color-main-light: #F15B6C;
+  --color-main-dark: #ed273e;
+  --color-alt-light: #f1945b;
+  --color-alt-dark: #eb6614;
+
+  --color-theme-dark: #222222;
+  --color-theme-light: #fcfcfc;
+
+  --color-main-light-10-opacity: light-dark(color-mix(in lab, var(--color-theme-light) 90%, var(--color-main-light) 10%), color-mix(in lab, var(--color-theme-dark) 90%, var(--color-main-light) 10%));
+
+  --color-theme-dual-normal: light-dark(var(--color-theme-light), var(--color-theme-dark));
+  --color-theme-dual-reverse: light-dark(var(--color-theme-dark), var(--color-theme-light));
+
+  --color-theme-dual-5-mix-normal: light-dark(color-mix(in lab, var(--color-theme-light) 95%, var(--color-theme-dark) 5%), color-mix(in lab, var(--color-theme-dark) 95%, var(--color-theme-light) 5%));
+  --color-theme-dual-5-mix-reverse: light-dark(color-mix(in lab, var(--color-theme-light) 95%, var(--color-theme-dark) 5%), color-mix(in lab, var(--color-theme-dark) 95%, var(--color-theme-light) 5%));
+  --color-theme-dual-10-mix-normal: light-dark(color-mix(in lab, var(--color-theme-light) 90%, var(--color-theme-dark) 10%), color-mix(in lab, var(--color-theme-dark) 90%, var(--color-theme-light) 10%));
+  --color-theme-dual-10-mix-reverse: light-dark(color-mix(in lab, var(--color-theme-dark) 90%, var(--color-theme-light) 10%), color-mix(in lab, var(--color-theme-light) 90%, var(--color-theme-dark) 10%));
+  --color-theme-dual-50-mix: color-mix(in lab, var(--color-theme-dark) 50%, var(--color-theme-light) 50%);
+
+
+  color-scheme: light dark;
+  --font-main: 'Jura', Helvetica, sans-serif;
+  --font-alt: 'Kumar One', Georgia, Times, serif;
+  font-family: var(--font-main);
+  --font-size-s: clamp(0.75rem, 0.685rem + 0.325vw, 1rem); 
+  --font-size: clamp(0.875rem, 0.81rem + 0.325vw, 1.125rem);
+  --font-size-2xl: clamp(1.688rem, 1.232rem + 2.276vw, 3.438rem);
+}
+
+html { 
+  font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+*:focus-visible
+ {
+    outline: none;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-theme-dual-10-mix-reverse) var(--color-theme-dual-10-mix-normal);
+
+  font-family: var(--font-main);
+  background-color: var(--color-theme-dual-normal);
+  color: var(--color-theme-dual-reverse);
+  font-size: var(--font-size);
+}
+
+input {
+  font-size: var(--font-size);
+  font-family: var(--font-main)
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+svg {
+  overflow: visible;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-theme-dual-10-mix-normal);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-theme-dual-10-mix-reverse);
+  border-radius: 6px;
+  border: 3px solid var(--color-theme-dual-10-mix-reverse);
+}

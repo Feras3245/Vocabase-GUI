@@ -1,0 +1,45 @@
+{
+    "Verbs": {
+        "Verb": "title",
+        "Definitions": "text",
+        "Synonyms": "text",
+        "Antonyms": "text",
+        "Prepositions": "multi_select",
+        "PPII": "text",
+        "Preterite": "text",
+        "Tags": "multi_select",
+        "Examples": "text",
+        "Niveau": "select"
+    },
+
+    "Nouns": {
+        "Noun": "title",
+        "Article": "select",
+        "Plural": "text",
+        "Definitions": "text",
+        "Synonyms": "text",
+        "Antonyms": "text",
+        "Examples": "text",
+        "Niveau": "select"
+    },
+
+    "Adjectives": {
+        "Adjective": "title",
+        "Comparative": "text",
+        "Superlative": "text",
+        "Definitions": "text",
+        "Synonyms": "text",
+        "Antonyms": "text",
+        "Examples": "text",
+        "Niveau": "select"
+    },
+
+    "Adverbs": {
+        "Adjective": "title",
+        "Definitions": "text",
+        "Synonyms": "text",
+        "Antonyms": "text",
+        "Examples": "text",
+        "Niveau": "select"
+    }
+}
