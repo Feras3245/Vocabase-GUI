@@ -1,5 +1,5 @@
 # Vocabase (GUI/WebApp Edition)
-
+Click [here](https://github.com/Feras3245/Vocabase-GUI/tree/main?tab=readme-ov-file#demo) to skip to the Demo
 ## About
 
 This project was a GUI remake of my previous CLI python tool to scrape German term data from the popular online dictionary Linguee.com. This version is a Spring boot based web app with Vue 3 frontend that does the exact same function but scrapes terms from verben.de instead of linguee.com.
